@@ -2,7 +2,7 @@ FROM mysql:latest
 
 RUN sed -i '/VOLUME \[/d' /usr/local/bin/docker-entrypoint.sh
 
-ENV MYSQL_ROOT_PASSWORD='PES1UG21CSXXX'
+ENV MYSQL_ROOT_PASSWORD='PES1UG22CS032'
 ENV MYSQL_DATABASE='notes'
 
 EXPOSE 3306
